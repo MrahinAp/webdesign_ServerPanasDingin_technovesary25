@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EcoBank - Menabung sampah, panen rupiah</title>
+    <title>EcoBank</title>
     
     {{-- Tailwind CSS CDN --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,7 +12,7 @@
     {{-- Custom Tailwind Config --}}
     <script>
         tailwind.config = {
-            theme: {
+            theme: { -
                 extend: {
                     colors: {
                         'ecobank-green': '#166534',
